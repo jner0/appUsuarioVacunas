@@ -1,0 +1,48 @@
+GET http://localhost:3000/api/admin/
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJjZWR1bGEiOiIxMzEyMzk0MjIyIiwiZmtfcm9sIjoxfQ.K3jLjJSG_0QIO8XCTKdABoMqWNLS-uZzC4TMaBAyOIE
+
+###
+POST http://localhost:3000/api/admin
+Content-Type: application/json
+
+{
+    "cedula": 1725485896,
+    "nombres": "Ena Lucia",
+    "apellidos": "Arteaga Rodriguez",
+    "email": "ena@gmail.com",
+    "fecha_nacimiento": null,
+    "direccion": null,
+    "telefono_movil": null,
+    "fk_rol": 2
+
+}
+
+###
+DELETE http://localhost:3000/api/admin/3
+
+###
+PUT http://localhost:3000/api/admin/1
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJjZWR1bGEiOiIxMzEyMzk0MjIyIiwiZmtfcm9sIjoxfQ.K3jLjJSG_0QIO8XCTKdABoMqWNLS-uZzC4TMaBAyOIE
+
+{
+    "cedula": "1312394222",
+    "nombres": "José Nemecio",
+    "apellidos": "Rodriguez Loor",
+    "email": "jnemecio@gmail.com",
+    "fecha_nacimiento": null,
+    "direccion": null,
+    "telefono_movil": null,
+    "fk_rol": 1
+}
+
+
+
+###
+POST http://localhost:3000/api/users/login
+Content-Type: application/json
+
+{
+    "userName": "jnemecio@gmail.com",
+    "pass": 1312394222
+}
