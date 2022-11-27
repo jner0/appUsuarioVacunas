@@ -1,0 +1,13 @@
+<div class="mb-3 col-6 offset-3">
+    <label for="exampleFormControlInput1" class="form-label">Email</label>
+    <input [(ngModel)]="user.userName" type="email" class="form-control">
+</div>
+<div class="mb-3 col-6 offset-3">
+    <label for="exampleFormControlTextarea1" class="form-label">Password</label>
+    <input [(ngModel)]="user.pass" type="password" class="form-control">
+    
+</div>
+<div class="mb-3 col-6 offset-3">
+    <button class="btn btn-primary" (click)="logIn()">Ingresar</button>
+</div>
+
