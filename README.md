@@ -6,6 +6,8 @@ vacunación de los empleados.
 Para la parte del BackEnd se creé una API mediante NodeJs y ExpressJs en la cual se definieron todos los métodos necesarios para poder consumirlos mediante nuestra aplicación en el FRONT de igual manera se usó la libreria JasonWebToken para la parte de autenticación y Login de nuestra aplicación. 
 
 Para la parte del FRONT  de nuestra aplicación se usó como framework principal Angular en el cual se crearon las diferentes rutas necesarias para poder mostrar todos los requerimientos de la aplicación.
+
+Para la persistencia de los datos usé MySql en la cual se generó las tablas que creí necesarias para el buen funcionamiento de la aplicación.
 # EmpleadosVacunas
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
