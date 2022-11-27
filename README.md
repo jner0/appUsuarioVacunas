@@ -1,4 +1,11 @@
-<<<<<<< HEAD
+# KRUGER CHALLENGUE
+
+Se realizó una aplicación para llevar un registro del inventario del estado de
+vacunación de los empleados.
+
+Para la parte del BackEnd se creé una API mediante NodeJs y ExpressJs en la cual se definieron todos los métodos necesarios para poder consumirlos mediante nuestra aplicación en el FRONT de igual manera se usó la libreria JasonWebToken para la parte de autenticación y Login de nuestra aplicación. 
+
+Para la parte del FRONT  de nuestra aplicación se usó como framework principal Angular en el cual se crearon las diferentes rutas necesarias para poder mostrar todos los requerimientos de la aplicación.
 # EmpleadosVacunas
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
